@@ -30,7 +30,6 @@ struct WebViewManager: UIViewRepresentable {
             if let userAgent = result as? String {
                 print(result)
             }}
-        
         //webView.customUserAgent = WebManager.getUAgent(forWebView: true)
     }
     
@@ -73,16 +72,25 @@ struct WebViewManager: UIViewRepresentable {
                 {
                     WebManager.trySetSavedUrl(finalURL)
                 }
+                //print("Loaded url: \(finalURL)")
             } else {
                 print("Failed to load: \(finalURL)")
             }
+
+//            PostRequestSender().sendPostRequestInitial(timeStarted: parent.timeStarted)
         }
         
         func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+//            if let finalURL = webView.url {
+//                PostRequestSender().sendPostRequestError(timeStarted: parent.timeStarted, finalUrl: finalURL.absoluteString, error: error.localizedDescription)
+//            }
             print("Navigation failed")
         }
         
         func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+//            if let finalURL = webView.url {
+//                PostRequestSender().sendPostRequestError(timeStarted: parent.timeStarted, finalUrl: finalURL.absoluteString, error: error.localizedDescription)
+//            }
             print("Navigation failed")
         }
 

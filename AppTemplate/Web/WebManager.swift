@@ -15,6 +15,7 @@ public class WebManager
         {
             do
             {
+                
                 if try await checkInitURL(url: URL(string: finalUrl)!)
                 {
                     await loadProvenURL(urlString: finalUrl)

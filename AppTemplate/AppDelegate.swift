@@ -1,6 +1,5 @@
 import UIKit
 import SwiftUI
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -12,6 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.application = application
 //        onGameStart()
 //        return true
+        
         showLoadingScreen()
         initApp()
         

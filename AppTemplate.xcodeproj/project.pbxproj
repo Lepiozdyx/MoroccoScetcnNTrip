@@ -7,7 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */; };
 		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
+		FA7F7EDD2F688E82006E7E3C /* PatternScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ED12F688E82006E7E3C /* PatternScreen.swift */; };
+		FA7F7EDE2F688E82006E7E3C /* JournalEntriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ECD2F688E82006E7E3C /* JournalEntriesScreen.swift */; };
+		FA7F7EDF2F688E82006E7E3C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EBC2F688E82006E7E3C /* RootView.swift */; };
+		FA7F7EE02F688E82006E7E3C /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EC42F688E82006E7E3C /* Color+App.swift */; };
+		FA7F7EE12F688E82006E7E3C /* JournalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EBF2F688E82006E7E3C /* JournalModels.swift */; };
+		FA7F7EE22F688E82006E7E3C /* SketchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ED32F688E82006E7E3C /* SketchScreen.swift */; };
+		FA7F7EE32F688E82006E7E3C /* ImagePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EC72F688E82006E7E3C /* ImagePickers.swift */; };
+		FA7F7EE42F688E82006E7E3C /* PlaceDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ECF2F688E82006E7E3C /* PlaceDetailsScreen.swift */; };
+		FA7F7EE52F688E82006E7E3C /* NewEntryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ECE2F688E82006E7E3C /* NewEntryScreen.swift */; };
+		FA7F7EE62F688E82006E7E3C /* ArchiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ECB2F688E82006E7E3C /* ArchiveScreen.swift */; };
+		FA7F7EE72F688E82006E7E3C /* CanvasModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EBE2F688E82006E7E3C /* CanvasModels.swift */; };
+		FA7F7EE82F688E82006E7E3C /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EC12F688E82006E7E3C /* AppDataStore.swift */; };
+		FA7F7EE92F688E82006E7E3C /* AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ED82F688E82006E7E3C /* AppTabBar.swift */; };
+		FA7F7EEA2F688E82006E7E3C /* AppNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EC92F688E82006E7E3C /* AppNavigationBar.swift */; };
+		FA7F7EEB2F688E82006E7E3C /* MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7ED62F688E82006E7E3C /* MainShellView.swift */; };
+		FA7F7EEC2F688E82006E7E3C /* Font+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7EC52F688E82006E7E3C /* Font+App.swift */; };
+		FA7F7EED2F688E82006E7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7EDB2F688E82006E7E3C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +45,34 @@
 		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		FA7F7EBC2F688E82006E7E3C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FA7F7EBE2F688E82006E7E3C /* CanvasModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasModels.swift; sourceTree = "<group>"; };
+		FA7F7EBF2F688E82006E7E3C /* JournalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModels.swift; sourceTree = "<group>"; };
+		FA7F7EC12F688E82006E7E3C /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		FA7F7EC42F688E82006E7E3C /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		FA7F7EC52F688E82006E7E3C /* Font+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+App.swift"; sourceTree = "<group>"; };
+		FA7F7EC72F688E82006E7E3C /* ImagePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickers.swift; sourceTree = "<group>"; };
+		FA7F7EC92F688E82006E7E3C /* AppNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationBar.swift; sourceTree = "<group>"; };
+		FA7F7ECB2F688E82006E7E3C /* ArchiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveScreen.swift; sourceTree = "<group>"; };
+		FA7F7ECD2F688E82006E7E3C /* JournalEntriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntriesScreen.swift; sourceTree = "<group>"; };
+		FA7F7ECE2F688E82006E7E3C /* NewEntryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryScreen.swift; sourceTree = "<group>"; };
+		FA7F7ECF2F688E82006E7E3C /* PlaceDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsScreen.swift; sourceTree = "<group>"; };
+		FA7F7ED12F688E82006E7E3C /* PatternScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternScreen.swift; sourceTree = "<group>"; };
+		FA7F7ED32F688E82006E7E3C /* SketchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchScreen.swift; sourceTree = "<group>"; };
+		FA7F7ED62F688E82006E7E3C /* MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainShellView.swift; sourceTree = "<group>"; };
+		FA7F7ED82F688E82006E7E3C /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
+		FA7F7EDB2F688E82006E7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CE7115362E6F0AB000BFCB5A /* AppTemplate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppTemplate;
+			sourceTree = "<group>";
+		};
+		CE9DBAB62E9014FA0065A837 /* AppsFlyer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppsFlyer;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -42,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5F035A2E90173A004E65F1 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +92,8 @@
 		CE71152B2E6F0AB000BFCB5A = {
 			isa = PBXGroup;
 			children = (
+				FA7F7EDC2F688E82006E7E3C /* MoroccoScetcnNTrip */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
 				CE7115352E6F0AB000BFCB5A /* Products */,
@@ -74,6 +117,150 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA7F7EBD2F688E82006E7E3C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EBC2F688E82006E7E3C /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA7F7EC02F688E82006E7E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EBE2F688E82006E7E3C /* CanvasModels.swift */,
+				FA7F7EBF2F688E82006E7E3C /* JournalModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA7F7EC22F688E82006E7E3C /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC12F688E82006E7E3C /* AppDataStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		FA7F7EC32F688E82006E7E3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC02F688E82006E7E3C /* Models */,
+				FA7F7EC22F688E82006E7E3C /* Stores */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FA7F7EC62F688E82006E7E3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC42F688E82006E7E3C /* Color+App.swift */,
+				FA7F7EC52F688E82006E7E3C /* Font+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA7F7EC82F688E82006E7E3C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC72F688E82006E7E3C /* ImagePickers.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FA7F7ECA2F688E82006E7E3C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC92F688E82006E7E3C /* AppNavigationBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FA7F7ECC2F688E82006E7E3C /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ECB2F688E82006E7E3C /* ArchiveScreen.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		FA7F7ED02F688E82006E7E3C /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ECD2F688E82006E7E3C /* JournalEntriesScreen.swift */,
+				FA7F7ECE2F688E82006E7E3C /* NewEntryScreen.swift */,
+				FA7F7ECF2F688E82006E7E3C /* PlaceDetailsScreen.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		FA7F7ED22F688E82006E7E3C /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ED12F688E82006E7E3C /* PatternScreen.swift */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		FA7F7ED42F688E82006E7E3C /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ED32F688E82006E7E3C /* SketchScreen.swift */,
+			);
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+		FA7F7ED52F688E82006E7E3C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ECC2F688E82006E7E3C /* Archive */,
+				FA7F7ED02F688E82006E7E3C /* Journal */,
+				FA7F7ED22F688E82006E7E3C /* Pattern */,
+				FA7F7ED42F688E82006E7E3C /* Sketch */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FA7F7ED72F688E82006E7E3C /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ED62F688E82006E7E3C /* MainShellView.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		FA7F7ED92F688E82006E7E3C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7ED82F688E82006E7E3C /* AppTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FA7F7EDA2F688E82006E7E3C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EC82F688E82006E7E3C /* Common */,
+				FA7F7ECA2F688E82006E7E3C /* Navigation */,
+				FA7F7ED52F688E82006E7E3C /* Screens */,
+				FA7F7ED72F688E82006E7E3C /* Shell */,
+				FA7F7ED92F688E82006E7E3C /* TabBar */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FA7F7EDC2F688E82006E7E3C /* MoroccoScetcnNTrip */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7EBD2F688E82006E7E3C /* App */,
+				FA7F7EC32F688E82006E7E3C /* Data */,
+				FA7F7EC62F688E82006E7E3C /* Extensions */,
+				FA7F7EDA2F688E82006E7E3C /* UI */,
+				FA7F7EDB2F688E82006E7E3C /* Assets.xcassets */,
+			);
+			path = MoroccoScetcnNTrip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,9 +279,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+				CE9DBAB62E9014FA0065A837 /* AppsFlyer */,
 			);
 			name = AppTemplate;
 			packageProductDependencies = (
+				CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */,
 			);
 			productName = AppTemplate;
 			productReference = CE7115342E6F0AB000BFCB5A /* AppTemplate.app */;
@@ -125,6 +314,7 @@
 			mainGroup = CE71152B2E6F0AB000BFCB5A;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE7115352E6F0AB000BFCB5A /* Products */;
@@ -141,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7F7EED2F688E82006E7E3C /* Assets.xcassets in Resources */,
 				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +343,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7F7EDD2F688E82006E7E3C /* PatternScreen.swift in Sources */,
+				FA7F7EDE2F688E82006E7E3C /* JournalEntriesScreen.swift in Sources */,
+				FA7F7EDF2F688E82006E7E3C /* RootView.swift in Sources */,
+				FA7F7EE02F688E82006E7E3C /* Color+App.swift in Sources */,
+				FA7F7EE12F688E82006E7E3C /* JournalModels.swift in Sources */,
+				FA7F7EE22F688E82006E7E3C /* SketchScreen.swift in Sources */,
+				FA7F7EE32F688E82006E7E3C /* ImagePickers.swift in Sources */,
+				FA7F7EE42F688E82006E7E3C /* PlaceDetailsScreen.swift in Sources */,
+				FA7F7EE52F688E82006E7E3C /* NewEntryScreen.swift in Sources */,
+				FA7F7EE62F688E82006E7E3C /* ArchiveScreen.swift in Sources */,
+				FA7F7EE72F688E82006E7E3C /* CanvasModels.swift in Sources */,
+				FA7F7EE82F688E82006E7E3C /* AppDataStore.swift in Sources */,
+				FA7F7EE92F688E82006E7E3C /* AppTabBar.swift in Sources */,
+				FA7F7EEA2F688E82006E7E3C /* AppNavigationBar.swift in Sources */,
+				FA7F7EEB2F688E82006E7E3C /* MainShellView.swift in Sources */,
+				FA7F7EEC2F688E82006E7E3C /* Font+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +509,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Morocco Scetch&Trip";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos of the trip.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos of the trip.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos of the trip.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to understand how users discover our app and to improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -339,8 +547,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Morocco Scetch&Trip";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos and videos of the trip.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to the photo library to save photos and videos.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos of the trip.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to save photos of the trip.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to understand how users discover our app and to improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -386,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE5F03592E90173A004E65F1 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5F03582E90173A004E65F1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE71152C2E6F0AB000BFCB5A /* Project object */;
 }
